@@ -1,0 +1,14 @@
+{
+  "name": "node-actions-demo-express-api",
+  "version": "1.0.0",
+  "description": "Simple Express API with healthcheck and greeting endpoints",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
