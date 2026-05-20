@@ -1,3 +1,4 @@
+###
 POST https://dummyjson.com/auth/login HTTP/1.1
 Content-Type: application/json
 
@@ -5,3 +6,8 @@ Content-Type: application/json
     "username": "averyp",
     "password": "averyppass"
 }
+
+### 
+GET https://dummyjson.com/auth/me HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTYsInVzZXJuYW1lIjoiYXZlcnlwIiwiZW1haWwiOiJhdmVyeS5wZXJlekB4LmR1bW15anNvbi5jb20iLCJmaXJzdE5hbWUiOiJBdmVyeSIsImxhc3ROYW1lIjoiUGVyZXoiLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2F2ZXJ5cC8xMjgiLCJpYXQiOjE3NzkyNDkwMTAsImV4cCI6MTc3OTI1MjYxMH0.sSwZPjM1NgQCE712Uhmy3mRE3pR9l1z5mf3smZ58G5I
